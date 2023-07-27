@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #292A2B;
+}
+
+.container{
+    font-family: "Source Sans 3",sans-serif;
+}
+
+.header{
+    background:#000;
+    color: #fff;
+    border-bottom: 5px solid #333;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header .title{
+    margin: 0;
+}
+
+.header .title .main-title .logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.header .title .main-title{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header .title .main-title .sub-title{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.header .title .sub-title .at-rate{
+    color: #999;
+}
+
+.editor{
+    width: 33.33%;
+    height: 50%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    background: #403E3E;
+}
+
+.editor #html{
+    border-right: 1px solid #777;
+}
+
+.editor #css{
+    border-left: 20px solid #333;
+    border-right: 1px solid #777;
+}
+
+.editor #js{
+    border-left: 20px solid #333;
+}
+
+.code-box{
+    position: relative;
+    height: calc(50vh - 4.6rem);
+    border-top: 1px solid #000;
+    border-bottom: 10px solid #333;
+    overflow: hidden;
+}
+
+.code-box h1{
+    height: 2px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    background: #403E3E;
+    color: #fff;
+}
+
+.html-logo{
+    color: #E44D26;
+    padding: 4px;
+}
+
+.css-logo{
+    color: #37aaf2;
+    padding: 4px;
+}
+
+.js-logo{
+    color: #FDCD00;
+    padding: 4px;
+}
+
+.preview{
+    position: relative;
+    height: calc(90vh - 30px);
+    background: #fff;
+    border-top: 10px ridge #333;
+}
+
+.preview iframe{
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+/* Style for the draggable handle */
+.handle {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    cursor: row-resize;
+    background-color: #ddd;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+

@@ -73,7 +73,7 @@ body{
     position: relative;
     height: calc(50vh - 4.6rem);
     border-top: 1px solid #000;
-    border-bottom: 10px solid #333;
+    border-bottom: 10px solid #000;
     overflow: hidden;
 }
 
@@ -106,7 +106,7 @@ body{
     position: relative;
     height: calc(90vh - 30px);
     background: #fff;
-    border-top: 10px ridge #333;
+    border-top: 10px ridge #000;
 }
 
 .preview iframe{
@@ -129,7 +129,7 @@ body{
     height: 5px;
     width: 100%;
     cursor: row-resize;
-    background-color: #ddd;
+    background-color: #000;
 }
 
 
@@ -137,7 +137,6 @@ body{
     background: #555;
     border-radius: 20px;
 }
-
 
 
 
